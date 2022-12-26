@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+    font-family: Consolas;
+}
+body{
+    background-color: #3b3b3b;
+    color: #b4ccb9;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'ink free';
+    font-size: 2.5rem;
+}
+
+button{
+    margin: 1rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    font-family: Consolas;
+    font-weight: 600;
+    border-color: #26979f;
+    transition: .5s;
+}
+button:hover{
+    color: #26979f;
+}
+
+.letra-errada{
+    color: #e84d5b;
+    text-transform: uppercase;
+    margin: 0 .5rem;
+}
